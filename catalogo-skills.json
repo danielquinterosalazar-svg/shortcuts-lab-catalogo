@@ -1,0 +1,44 @@
+{
+  "app": "as-shortcuts-lab-catalogo-skills",
+  "esquema": 1,
+  "version": 1,
+  "fecha": "2026-11-16",
+  "origen": "Catálogo de AS Shortcuts Lab en GitHub. Por revisar.",
+  "skills": [
+    {
+      "nombre": "/init",
+      "queHace": "Crea el archivo CLAUDE.md del proyecto con una descripción del código.",
+      "servicio": "Claude lee tu repositorio y deja por escrito el contexto que usará en cada sesión.",
+      "seParece": "Entregarle a un compañero nuevo el manual del proyecto.",
+      "loUsasCuando": "Empiezas a usar Claude Code en un proyecto nuevo."
+    },
+    {
+      "nombre": "/code-review",
+      "queHace": "Revisa el diff actual (o un PR) buscando errores de correctitud.",
+      "servicio": "Una revisión previa a mano o en la nube antes de integrar cambios.",
+      "seParece": "Pedirle a un colega que relea tu trabajo antes de entregarlo.",
+      "loUsasCuando": "Terminaste un cambio y quieres una segunda mirada antes de integrarlo."
+    },
+    {
+      "nombre": "/security-review",
+      "queHace": "Revisa de forma completa la seguridad de los cambios pendientes en la rama.",
+      "servicio": "Busca vulnerabilidades antes de publicar, sin que tengas que ser experto en seguridad.",
+      "seParece": "Una inspección de seguridad antes de abrir un local al público.",
+      "loUsasCuando": "Vas a publicar cambios y quieres descartar fallos de seguridad."
+    },
+    {
+      "nombre": "/simplify",
+      "queHace": "Revisa el código cambiado en busca de reutilización y simplificaciones, y las aplica.",
+      "servicio": "Limpieza de calidad tras escribir código, sin buscar errores.",
+      "seParece": "Ordenar y pulir un borrador ya escrito, sin cambiar lo que dice.",
+      "loUsasCuando": "Tu código funciona pero quedó repetido o más largo de lo necesario."
+    },
+    {
+      "nombre": "/loop",
+      "queHace": "Repite un prompt o comando cada cierto intervalo.",
+      "servicio": "Vigilar algo en segundo plano (un despliegue, un estado) sin lanzarlo a mano cada vez.",
+      "seParece": "Un despertador que repite una tarea cada cierto tiempo.",
+      "loUsasCuando": "Quieres vigilar algo (un despliegue, un estado) sin lanzarlo a mano cada vez."
+    }
+  ]
+}
